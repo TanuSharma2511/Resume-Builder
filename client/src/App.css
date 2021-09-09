@@ -1,0 +1,462 @@
+.overall{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(236, 236, 248);
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #258ea6;
+}
+
+.form-wrapper {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 50px #555;
+  background-color: #ffffff;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  color: #111;
+  font-weight: lighter;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+label {
+  font-size: 0.8em;
+  margin-bottom: 0.25em;
+  color: #222;
+  font-weight: lighter;
+}
+
+input {
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #cfcfcf;
+}
+
+input::placeholder {
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: #999;
+}
+
+input.error {
+  border: 1px solid red;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 0.75em;
+  display: relative;
+}
+
+.firstName {
+  margin-right: 1%;
+}
+
+.lastName {
+  margin-left: 1%;
+}
+
+.firstName,
+.lastName,
+.email,
+.password {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.firstName,
+.lastName {
+  width: 49%;
+}
+
+.email,
+.password {
+  width: 100%;
+}
+
+.createAccount {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.createAccount button {
+  background-color: #519e8a;
+  color: #fff;
+  border: 2px solid #fff;
+  width: 100%;
+  margin-top: 1em;
+  padding: 8px 0px;
+  font-size: 1em;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  margin-bottom: 0.25em;
+}
+
+.createAccount button:hover {
+  color: #519e8a;
+  background-color: #fff;
+  border: 2px solid #519e8a;
+}
+
+.createAccount small {
+  color: #999;
+  font-weight: lighter;
+}
+
+/* 
+FOR PERSONAL INFORMATION */
+
+#ui{
+  border-radius: 5px;
+ color: white;
+ background-color: #ab6a03;
+ padding: 10px;
+ opacity: 0.9;
+ box-shadow: 2px 2px 2px 2px #000;
+ animation-delay: 2s;
+ animation-duration: 2s;
+ 
+}
+
+#contact_showcase{
+margin-top: 70px;
+}
+
+h1.personal{
+  color: #fff;
+  font-weight: bold;
+}
+
+input.person{
+  box-shadow: 2px 2px 2px gray;
+}
+
+
+
+/* START PAGE */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.front_screen {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  background-color: rgb(17, 17, 92);
+}
+.front_screen h1{
+  color: white;
+  font-size:50px;
+  line-height: 70px;
+}
+.left {
+  left: 0;
+  background-color: rgb(17, 17, 92);
+}
+.left h1{
+  color: white;
+  font-size:50px;
+  line-height: 70px;
+}
+.left .log_button{
+  margin-left: -580px;
+}
+.lead{
+  color: rgb(236, 236, 248);
+}
+.right {
+  right: 0;
+  background-color: rgb(236, 236, 248);
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.centered img {
+  width: 250px;
+}
+.suceed img{
+  width:350px;
+  
+}
+.splitButton{
+  margin-top:100px;
+  font-size:30px;
+  background-color: rgb(91, 91, 175);
+}
+
+
+/* AUTH PAGES */
+.auth_screen {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  background-color:rgb(91, 91, 175);
+}
+
+
+
+/* PERSONAL PAGE */
+.card-body{
+  background-color:  rgb(17, 17, 92);
+  height:60px;
+}
+.card-body h3{
+  margin-top:0px;
+  font-size:30px;
+}
+.card {
+  height: 100%;
+  width: 100%;
+  margin:0;
+  padding : 0;
+  background-color: rgb(236, 236, 248);
+}
+.App_personal{
+  background-color:  rgb(17, 17, 92);
+}
+h3.card-title{
+  color:#fff;
+  margin-bottom:30px;
+}
+.personal_section{
+  height: 100%;
+  width: 100%;
+
+}
+.education_section{
+  height: 100%;
+  width: 100%;
+
+}
+.experience_sector{
+  height: 100%;
+  width: 100%;
+}
+.card {
+  height: 100%;
+  width: 100%;
+  margin:0;
+  padding : 0;
+  background-color: rgb(236, 236, 248);
+}
+.card-body.experience{
+  margin: 0px;
+  padding: 0px;
+  width:100%;
+}
+
+.miscelleneous_sector{
+  height: 100%;
+  width: 100%;
+}
+
+.btn.personalBtn{
+  background-color: rgb(91, 91, 175);
+  padding: 6px 18px;
+}
+.btn{
+  font-size:30px;
+}
+.btn.eduBtn{
+  background-color: rgb(91, 91, 175);
+}
+.btn.expBtn{
+  background-color: rgb(91, 91, 175);
+}
+.btn.miscelleneousBtn{
+  background-color: rgb(91, 91, 175);
+}
+.btn.finalBtn{
+  background-color: rgb(91, 91, 175);
+}
+.btn.projectBtn{
+  background-color: rgb(91, 91, 175);
+}
+.btn.resumeBtn{
+  background-color: rgb(181, 181, 192);
+  color : rgb(91, 91, 175);
+}
+
+
+/* TEMPLATE PAGE */
+  /* for bot section */
+  .botWrapper{
+   
+    /* background: #5e5d5b url("./images/banner.jpg") center center; */
+    /* url("./images/banner.jpg") */
+    /* height: 20em; */
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .container .option_item {
+    display: block;
+    position: relative;
+    width: 175px;
+    height: 175px;
+    margin: 10px;
+  }
+  
+  .container .option_item .checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+  }
+  
+  .option_item .option_inner {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 58px 40px;
+    cursor: pointer;
+    color: #585c68;
+    display: block;
+     border: 5px solid transparent; 
+    position: relative;
+  }
+  
+  .option_item .option_inner .icon {
+    margin-bottom: 10px;
+  }
+  
+  .option_item .option_inner .icon .fa {
+    font-size: 32px;
+  }
+  
+  .option_item .option_inner .name {
+    user-select: none;
+   
+  }
+  
+  .option_item .checkbox:checked ~ .option_inner.facebook {
+    border-color: rgb(91, 91, 175);
+    color: rgb(91, 91, 175);
+  }
+  
+  .option_item .checkbox:checked ~ .option_inner.twitter {
+    border-color: rgb(91, 91, 175);
+    color: rgb(91, 91, 175);
+  }
+  
+  .option_item .checkbox:checked ~ .option_inner.instagram {
+    border-color: rgb(91, 91, 175);
+    color: rgb(91, 91, 175);
+  }
+  
+  .option_item .checkbox:checked ~ .option_inner.linkedin {
+    border-color: rgb(91, 91, 175);
+    color: rgb(91, 91, 175);
+  }
+  
+  .option_item .option_inner .tickmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 20px solid;
+    border-color: #000 transparent transparent #000;
+    display: none;
+  }
+  
+   .option_item .option_inner .tickmark:before {
+    content: "";
+    position: absolute;
+    top: -18px;
+    left: -18px;
+    width: 15px;
+    height: 5px;
+    border: 3px solid;
+    border-color: transparent transparent #fff #fff;
+    transform: rotate(-45deg);
+  } 
+  
+  .option_item .checkbox:checked ~ .option_inner .tickmark {
+    display: block;
+  }
+  
+  .option_item .option_inner.facebook .tickmark {
+    border-color: rgb(91, 91, 175) transparent transparent rgb(91, 91, 175);
+  }
+  
+  .option_item .option_inner.twitter .tickmark {
+    border-color: rgb(91, 91, 175) transparent transparent rgb(91, 91, 175);
+  }
+  
+  .option_item .option_inner.instagram .tickmark {
+    border-color: rgb(91, 91, 175) transparent transparent rgb(91, 91, 175);
+  }
+  
+  .option_item .option_inner.linkedin .tickmark {
+    border-color: rgb(91, 91, 175) transparent transparent rgb(91, 91, 175);
+  }
+  
+  @media only screen and (max-width: 400px) {
+    .botWrapper{
+      height: 60em;
+    }
+  }
+  @media only screen and (min-width: 400px) {
+    .botWrapper{
+      height: 35em;
+  }
+}
+  @media only screen and (min-width: 925px) {
+    .botWrapper{
+      height: 20em;
+    }
+  }
+
+  img.templatee {
+    width: 100px;
+    height: 100px;
+    
+  }
+
